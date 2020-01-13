@@ -1,0 +1,26 @@
+14:02:17 **** Incremental Build of configuration Debug for project STM32_FreeRTOS_UART_COMMANDS ****
+make -j8 all 
+Building file: ../src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\hvrsh\OneDrive\Desktop\FreeRTOS Workspace\STM32_FreeRTOS_UART_COMMANDS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -DDEBUG -DSTM32F446xx -DUSE_STDPERIPH_DRIVER -I"C:/Users/hvrsh/OneDrive/Desktop/FreeRTOS Workspace/STM32_FreeRTOS_UART_COMMANDS/StdPeriph_Driver/inc" -I"C:/Users/hvrsh/OneDrive/Desktop/FreeRTOS Workspace/STM32_FreeRTOS_UART_COMMANDS/Third_party/SEGGER/Config" -I"C:/Users/hvrsh/OneDrive/Desktop/FreeRTOS Workspace/STM32_FreeRTOS_UART_COMMANDS/Third_party/SEGGER/OS" -I"C:/Users/hvrsh/OneDrive/Desktop/FreeRTOS Workspace/STM32_FreeRTOS_UART_COMMANDS/Third_party/SEGGER/SEGGER" -I"C:/Users/hvrsh/OneDrive/Desktop/FreeRTOS Workspace/STM32_FreeRTOS_UART_COMMANDS/config" -I"C:/Users/hvrsh/OneDrive/Desktop/FreeRTOS Workspace/STM32_FreeRTOS_UART_COMMANDS/Third_party/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"C:/Users/hvrsh/OneDrive/Desktop/FreeRTOS Workspace/STM32_FreeRTOS_UART_COMMANDS/Third_party/FreeRTOS/org/Source/include" -I"C:/Users/hvrsh/OneDrive/Desktop/FreeRTOS Workspace/STM32_FreeRTOS_UART_COMMANDS/inc" -I"C:/Users/hvrsh/OneDrive/Desktop/FreeRTOS Workspace/STM32_FreeRTOS_UART_COMMANDS/CMSIS/device" -I"C:/Users/hvrsh/OneDrive/Desktop/FreeRTOS Workspace/STM32_FreeRTOS_UART_COMMANDS/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:247:13: warning: 'printmsg' defined but not used [-Wunused-function]
+ static void printmsg(char *msg)
+             ^~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: STM32_FreeRTOS_UART_COMMANDS.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T"C:/Users/hvrsh/OneDrive/Desktop/FreeRTOS Workspace/STM32_FreeRTOS_UART_COMMANDS/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "STM32_FreeRTOS_UART_COMMANDS.elf" @"objects.list"   -lm
+Finished building target: STM32_FreeRTOS_UART_COMMANDS.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "STM32_FreeRTOS_UART_COMMANDS.elf" "STM32_FreeRTOS_UART_COMMANDS.bin"
+arm-none-eabi-size "STM32_FreeRTOS_UART_COMMANDS.elf"
+   text	   data	    bss	    dec	    hex	filename
+  15408	   1120	  88052	 104580	  19884	STM32_FreeRTOS_UART_COMMANDS.elf
+ 
+
+14:02:20 Build Finished (took 2s.388ms)
+

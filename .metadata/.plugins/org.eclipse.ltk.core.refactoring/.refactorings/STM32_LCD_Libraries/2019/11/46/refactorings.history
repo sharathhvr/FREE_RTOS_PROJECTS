@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;LCD16x2&apos; to &apos;STM32_LCD_Libraries&apos;" description="Move &apos;LCD16x2&apos; to &apos;STM32_LCD_Libraries&apos;" destination="/STM32_LCD_Libraries" element1="/STM32_GPS_Interface/LCD16x2" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1573723290743" updateReferences="true"/>
+</session>

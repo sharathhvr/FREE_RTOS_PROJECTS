@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;STM32_FreeRTOS_LED_BUTTON/src/main.c&apos; to &apos;001LED_BUTTON.c&apos;" description="Rename resource &apos;main.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main.c" name="001LED_BUTTON.c" stamp="1569792961048" updateReferences="true"/>
+</session>

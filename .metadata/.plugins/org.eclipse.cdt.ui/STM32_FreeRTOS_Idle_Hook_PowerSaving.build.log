@@ -1,0 +1,23 @@
+16:26:03 **** Incremental Build of configuration Debug for project STM32_FreeRTOS_Idle_Hook_PowerSaving ****
+make -j8 all 
+Building file: ../src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\hvrsh\OneDrive\Desktop\FreeRTOS Workspace\STM32_FreeRTOS_Idle_Hook_PowerSaving\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -DDEBUG -DSTM32F446xx -DUSE_STDPERIPH_DRIVER -I"C:/Users/hvrsh/OneDrive/Desktop/FreeRTOS Workspace/STM32_FreeRTOS_Idle_Hook_PowerSaving/StdPeriph_Driver/inc" -I"C:/Users/hvrsh/OneDrive/Desktop/FreeRTOS Workspace/STM32_FreeRTOS_Idle_Hook_PowerSaving/Third_party/SEGGER/Config" -I"C:/Users/hvrsh/OneDrive/Desktop/FreeRTOS Workspace/STM32_FreeRTOS_Idle_Hook_PowerSaving/Third_party/SEGGER/OS" -I"C:/Users/hvrsh/OneDrive/Desktop/FreeRTOS Workspace/STM32_FreeRTOS_Idle_Hook_PowerSaving/Third_party/SEGGER/SEGGER" -I"C:/Users/hvrsh/OneDrive/Desktop/FreeRTOS Workspace/STM32_FreeRTOS_Idle_Hook_PowerSaving/config" -I"C:/Users/hvrsh/OneDrive/Desktop/FreeRTOS Workspace/STM32_FreeRTOS_Idle_Hook_PowerSaving/Third_party/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"C:/Users/hvrsh/OneDrive/Desktop/FreeRTOS Workspace/STM32_FreeRTOS_Idle_Hook_PowerSaving/Third_party/FreeRTOS/org/Source/include" -I"C:/Users/hvrsh/OneDrive/Desktop/FreeRTOS Workspace/STM32_FreeRTOS_Idle_Hook_PowerSaving/inc" -I"C:/Users/hvrsh/OneDrive/Desktop/FreeRTOS Workspace/STM32_FreeRTOS_Idle_Hook_PowerSaving/CMSIS/device" -I"C:/Users/hvrsh/OneDrive/Desktop/FreeRTOS Workspace/STM32_FreeRTOS_Idle_Hook_PowerSaving/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: STM32_FreeRTOS_Idle_Hook_PowerSaving.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T"C:/Users/hvrsh/OneDrive/Desktop/FreeRTOS Workspace/STM32_FreeRTOS_Idle_Hook_PowerSaving/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "STM32_FreeRTOS_Idle_Hook_PowerSaving.elf" @"objects.list"   -lm
+Finished building target: STM32_FreeRTOS_Idle_Hook_PowerSaving.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "STM32_FreeRTOS_Idle_Hook_PowerSaving.elf" "STM32_FreeRTOS_Idle_Hook_PowerSaving.bin"
+arm-none-eabi-size "STM32_FreeRTOS_Idle_Hook_PowerSaving.elf"
+   text	   data	    bss	    dec	    hex	filename
+  36640	   2532	  88360	 127532	  1f22c	STM32_FreeRTOS_Idle_Hook_PowerSaving.elf
+ 
+
+16:26:05 Build Finished (took 1s.989ms)
+

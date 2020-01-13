@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;Third_party&apos; to &apos;STM32_FreeRTOS_Idle_Hook_PowerSaving&apos;" description="Move &apos;Third_party&apos; to &apos;STM32_FreeRTOS_Idle_Hook_PowerSaving&apos;" destination="/STM32_FreeRTOS_Idle_Hook_PowerSaving" element1="/STM32_FreeRTOS_UART_COMMANDS/Third_party" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1571085128392" updateReferences="true"/>
+</session>
